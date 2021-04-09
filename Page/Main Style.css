@@ -1,0 +1,120 @@
+img {
+   position: relative;
+   width: 100%;
+   border:3px solid #555;
+}
+
+h2 {
+   position: absolute;
+   top: 8px;
+   left: 198px;
+   color: #8211C8;
+   width: 100%
+   
+}
+
+box {
+     position: absolute;
+     width: 100%;
+     max-width: 350px;
+}
+     .box img {
+      width: 100%;
+      height: auto;
+}
+      .box .btn {
+      position: absolute;
+      top: 30px;
+      Right: 8px;
+      background-color: #555;
+      color: white;
+      font-size: 16px;
+      padding: 12px 24px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      transform: translate(-50%, -50%);
+}
+
+h1 {
+   color:black;
+}
+   .patient {
+    position: absolute;
+    top: 475px;
+    left: 174px;
+}
+
+   .doctor {
+    position: absolute;
+    top: 469px;
+    right: 35px;
+}
+
+pre {
+   color:black;
+}
+   .newp {
+    position: absolute;
+    top: 550px;
+    left: 175px;
+}
+
+   .newd {
+    position: absolute;
+    top: 564px;
+    right: 280px;
+}
+
+
+box {
+     position: absolute;
+     width: 100%;
+     max-width: 350px;
+
+}
+      .box .signupp {
+      position: absolute;
+      top: 670px;
+      left: 209px;
+      background-color: #555;
+      color: white;
+      font-size: 16px;
+      transform: translate(-50%, -50%);
+      cursor: pointer;
+}
+
+     .box .signupd {
+      position: absolute;
+      top: 680px;
+      right: 378px;
+      background-color: #555;
+      color: white;
+      font-size: 16px;
+      transform: translate(-50%, -50%);
+      cursor: pointer;
+}
+
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}

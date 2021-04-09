@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="Sign up Style.css">
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/8.0.1/firebase-database.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/8.0.1/firebase-auth.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+  <script src="Sign up.js"></script>
+</head>
+<body>
+
+
+<!--SideBar-->
+
+
+  <div class="sidebar">
+    <a href="Main Page.html"><i class="fa fa-fw fa-home"></i> Home</a>
+    <a href="Pricing.html"><i class="fa fa-fw fa-wrench"></i> Pricing</a>
+    <a href="Doctors.html"><i class="fa fa-fw fa-user"></i> Doctors</a>
+    <a href="Aboutus.html"><i class="fa fa-fw fa-envelope"></i> About US</a>
+  </div>
+
+  <!--Head-->
+
+  <h1 style="text-align:center">SignUp</h1>
+
+<!--Sign up Form-->
+<div class="container">
+<div class="well">
+
+  <div class="form">
+    <div class="form-group">
+      <label for="email">Email address</label>
+      <input type="email" class="form-control" id="email" placeholder="Email">
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" class="form-control" id="password" placeholder="Password">
+    </div>
+
+  <label for="doctorpatient">Who are You:</label>
+  <select name="Choose" id="doctorpatient">
+    <option value="text">Doctor</option>
+    <option value="text">Patient</option>
+  </select>
+  <br>
+   <input type="submit" class="btn btn-primary btn-block" value="Register" onclick="signUp()">
+
+   <p>Already a Member ? Click on the button to Login.</p>
+
+   <button onclick="document.location='Login page.html'">Login</button>
+
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.2.10/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.2.10/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+

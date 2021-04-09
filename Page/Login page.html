@@ -1,0 +1,55 @@
+<html>
+<head>
+  <title> Login</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="Login style.css" />
+</head>
+<body>
+
+
+<!--SideBar-->
+
+
+<div class="sidebar">
+  <a href="Main Page.html"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a href="Pricing.html"><i class="fa fa-fw fa-wrench"></i> Pricing</a>
+  <a href="Doctors.html"><i class="fa fa-fw fa-user"></i> Doctors</a>
+  <a href="Aboutus.html"><i class="fa fa-fw fa-envelope"></i> About US</a>
+</div>
+
+
+
+  <div id="login_div" class="main-div">
+    <h2> Login </h2>
+    <input type="email" placeholder="Email..." id="email_field" />
+    <input type="password" placeholder="Password..." id="password_field" />
+
+    <button onclick="login()">Login to Account</button>
+  </div>
+
+
+  <div id="user_div" class="loggedin-div">
+    <h3>Welcome User</h3>
+    <p id="user_para">Welcome to Meet A Doctor. You're currently logged in.</p>
+    <button onclick="logout()">Logout</button>
+  </div>
+
+
+
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyD_2Gnu5SqILZqIDU3naGP-w0LOYxaznkQ",
+      authDomain: "meetadoctor-411b9.firebaseapp.com",
+      databaseURL: "https://meetadoctor-411b9-default-rtdb.firebaseio.com",
+      projectId: "meetadoctor-411b9",
+      storageBucket: "meetadoctor-411b9.appspot.com",
+      messagingSenderId: "961208034044"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src="Login.js"></script>
+
+</body>
+</html>
